@@ -41,12 +41,20 @@ const Dashboard = ({ isAuthenticated, loginSuccess, loginFailure }) => {
 
     if (esOrdenCorrecto) {
       setIngredientesSeleccionados([]);
-      // Display an additional image
-      const additionalImage = "https://forbes.co/_next/image?url=https%3A%2F%2Fcdn.forbes.co%2F2019%2F11%2FBurger-King-1280x720.jpg%3Fv%3D1280720&w=3840&q=75";
+      const additionalImage =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvsHPBkgK2ynYvLFrAOHKbtny1Kk4zMaSo4g&usqp=CAU";
       const img = new Image();
       img.src = additionalImage;
       img.alt = "Hamburguesa lograda";
+      img.id = "img_flotante";
       document.body.appendChild(img);
+      img.style.position = "fixed";
+      img.style.width = "70vh";
+      img.style.height = "70vh";
+      img.style.zIndex = "999";
+      img.style.right = "20%";
+      img.style.top = "15%";
+      img.style.borderRadius = "30px";
     }else {
       setIngredientesSeleccionados([]);
       alert("PREPARA BONITO BOB ESPONJA");
