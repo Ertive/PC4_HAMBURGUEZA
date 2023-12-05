@@ -8,7 +8,7 @@ html, body {
     padding: 0;
 }
 body {
-    background: rgb(207 207 207);
+background: url("https://media.ambito.com/p/ddeb5fdba575c76821846791e52d95d0/adjuntos/239/imagenes/039/884/0039884582/hamburguesajpg.jpg")center/cover no-repeat;
 }
 h1 {
     padding: 20px;
@@ -18,23 +18,23 @@ h1 {
     text-align: center;
 }
 button {
-    margin-top: 29vh;
+    margin-top: 27vh;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 38px;
-    border-radius: 11px;
+    padding: 13px 47px;
+    border-radius: 18px;
     border: none;
-    font-size: 17px;
+    font-size: 23px;
     font-weight: 700;
     background: cadetblue;
 }
 p {
     text-align: center;
-    margin-top: 12px;
+    margin-top: 18px;
     color: #8d2121d6;
     font-family: system-ui;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     font-weight: 500;
 }

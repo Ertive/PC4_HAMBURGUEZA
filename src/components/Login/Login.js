@@ -19,7 +19,7 @@ const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
   
     return (
       <div>
-        <h1>Login</h1>
+        <h1>Hamburguesa</h1>
         <button onClick={handleLogin}>Iniciar sesión</button>
         <p>{isAuthenticated ? '¡Inicio de sesión exitoso!' : 'Inicio de sesión fallido'}</p>
       </div>

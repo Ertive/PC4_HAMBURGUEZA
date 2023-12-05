@@ -8,54 +8,33 @@ html, body {
     padding: 0;
 }
 body {
-    background: rgb(207 207 207);
-}
-h2 {
-    text-align: center;
-    color: black;
-    text-transform: capitalize;
-    margin-bottom: 25px;
+    
 }
 main {
     display: flex;
     width: 100%;
-    margin-top: 20px;
     height: 100%;
     justify-content: center;
+    background: rgb(127, 255, 180);
 }
-aside.informacion-personal ul {
-    list-style: none;
+.ingredientes {
+    background: beige;
+    width: 30%;
 }
-aside.informacion-personal li {
-    padding: 5px 0px;
-}
-aside.informacion-personal {
-    height: 90vh;
-    padding: 0px 10px;
-    box-shadow: 15px 18px 20px 0px rgb(0 0 0 / 50%);
-}
-section.transaccion {
+.muestra {
+    background: #636363;
     width: 70%;
-    padding: 0px 20px;
-}
-section.transaccion ul {
-    list-style: none;
-}
-section.transaccion li {
-    background: transparent;
-    margin-bottom: 7px;
-    padding: 12px;
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 20px 8px rgb(89 109 153 / 31%);
-    height: 32px;
-    color: #32b938;
-    font-size: 24px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-section.transaccion strong {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: black;
+img {
+    width: 20vh;
+    height: 20vh;   
+}
+.container{
+    background: rgb(43 43 43);
+    width: 100%;
+    height: 100vh;
 }

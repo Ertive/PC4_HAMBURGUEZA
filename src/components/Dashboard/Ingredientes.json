@@ -1,0 +1,28 @@
+{
+    "cocina": [
+      {
+        "nombre": "Pan superior",
+        "img": "https://previews.123rf.com/images/anatolir/anatolir2007/anatolir200702198/152186937-icono-de-pan-superior-de-hamburguesa-estilo-de-dibujos-animados.jpg"
+      },
+      {
+        "nombre": "Pan inferior",
+        "img": "https://c8.alamy.com/compes/2gmnd0m/fondo-de-pan-de-hamburguesa-aislado-sobre-fondo-blanco-2gmnd0m.jpg"
+      },
+      {
+        "nombre": "Mortadella",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/b/be/Mortadella.jpg"
+      },
+      {
+        "nombre": "Lechuga",
+        "img": "https://www.gob.mx/cms/uploads/image/file/398176/lechuga5.jpg"
+      },
+      {
+        "nombre": "Tomate",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bright_red_tomato_and_cross_section02.jpg/640px-Bright_red_tomato_and_cross_section02.jpg"
+      },
+      {
+        "nombre": "Salsa secreta",
+        "img": "https://weloversize.com/wp-content/uploads/2020/05/salsa-secreta-e1590079354816.jpg"
+      }
+    ]
+  }
